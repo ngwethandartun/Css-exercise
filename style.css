@@ -73,6 +73,9 @@ h1 {
 .buttons {
   padding: 20px 0;
 }
+.button-one:active{
+  background-color: burlywood;
+}
 .button-one {
   padding: 6px 30px;
   color: white;
@@ -84,15 +87,22 @@ h1 {
   background-color: white;
   margin-left: 50px;
 }
+.button-two:active{
+  background-color: burlywood;
+}
 .bottom{
-  
+  padding: 30px;
   position: absolute;
   width: 100%;
   height: 73px;
   top: 800px;
   background-color: #a78bfa;
   text-align: center;
- 
+  
+}
+.bottom a:visited{
+  color: black;
+
 }
 .link{
   margin-left: 30px;
